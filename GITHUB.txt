@@ -28,3 +28,8 @@ master@{4days}                              -- Compara el Branch con el de hace 
 HEAD@{3}                                            -- Compara el Branch con el HEADMaster posicion 3 --
 
 HEAD^                                                   -- Compara el Branch con el ultimo 1 menos --
+
+
+Sección 12.-----------------------------------------------------------------------------------------------------------------------------------
+
+
