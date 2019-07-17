@@ -1,7 +1,4 @@
-
-
-
-SecciÛn 10.
+Secci√≥n 10.-----------------------------------------------------------------------------------------------------------------------------------
 
 Local Tags:
 
@@ -11,7 +8,7 @@ git tag lo-que-me-salga-del-pijo 				-- Crea tag en el Master Local --
 
 git tag -a v-3.0 -m "version local v-3.0" (4144c95-RefCommit)    -- Crea tag en la ref commit 4144c95 --
 
-git push origin --tags  					-- EnvÌa los tags a GitHub repository--
+git push origin --tags  					-- Env√≠a los tags a GitHub repository--
 
 git tag -d v-3.0						-- Borra local tag v-3.0 --
 
@@ -20,3 +17,6 @@ git push origin :lo-que-me-salga-del-pijo			-- Borra el tag en el repositorio re
 git tag -f v-3.o 68190ff					-- Edita el tag v-3.0 para asociarlo a commit 68190ff --
 
 git push -f origin v-3.o				        -- Edita el tag v-3.0 para asociarlo a commit 68190ff en remotoGitHub--
+
+
+Secci√≥n 11.-----------------------------------------------------------------------------------------------------------------------------------
