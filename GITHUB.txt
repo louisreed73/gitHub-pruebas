@@ -1,4 +1,35 @@
-Sección 10.-----------------------------------------------------------------------------------------------------------------------------------
+Sección 4.-----------------------------------------------------------------------------------------------------------------------------------
+
+git .init                                  -- Instalacion local del GIT --
+
+git status                              -- Estado del GIT en un momento dado --
+
+git add file.txt                    -- Añade archivo al Stage Area --
+
+git add .                               -- Añade todos los archivos al Stage Area --
+
+git commit -m "mensaje para el commit"      -- Añade todos los archivos al GITLOCAL Rep --
+
+git commit -a -m "mensaje para el commit"      -- Añade todos los archivos al GITLOCAL Rep --
+
+git log                         -- Muestra todos los commits realizados --
+
+git log   --online                      -- Muestra todos los commits realizados  en una linea--
+
+git show                      -- Muestra el ultimo commit realizado--
+
+git reflog                      -- Muestra los commit realizados--
+
+q                     -- salir de los logs--
+
+git ls-files        -- Muestra los archivos trackeados para GIT ()--
+
+git ls-files        -- Muestra los archivos trackeados para GIT ()--
+
+
+
+
+Sección 10.--------------------------------------------------------------------------------------------------------------------------------
 
 Local Tags:
 
