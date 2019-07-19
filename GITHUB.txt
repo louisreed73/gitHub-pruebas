@@ -67,6 +67,8 @@ git checkout nuevo     -- volver al branch NUEVO --
 
 git checkout nuevo     -- volver al branch MASTER --
 
+git merge     nuevo                  --integrar los cambios del branch en master ----
+
 git branch -d nuevo     -- borrar el BRANCH nuevo --
 
 
