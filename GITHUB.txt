@@ -46,7 +46,9 @@ git ls-files        -- Muestra los archivos trackeados para GIT ()--
 
 git ls-files        -- Muestra los archivos trackeados para GIT ()--
 
-git commit --  -- Abre el editor para cambiar un mensaje de commit erroneos --
+git commit --  -- Abre el editor para cambiar un mensaje de commit erroneo --
+
+para salir del editor o hacer cambios    i -para insertar- x -para eliminar- y finalmente :x -para guardar y salir-
 
 
 Sección 5.-----------------------------------------------------------------------------------------------------------------------------------
@@ -54,6 +56,19 @@ Sección 5.---------------------------------------------------------------------
 git diff ____34 _____23     -- Diferencias entre 2 commits --
 
 git diff ____34 HEAD     -- Diferencias entre 1 commit y el actual HEAD, ultimo --
+
+git branch     -- ver todos los branchs ACTIVOS --
+
+git checkout -b nuevo     -- Creado BRANCH con el nombre nuevo --
+
+git checkout master     -- volver al branch MASTER --
+
+git checkout nuevo     -- volver al branch NUEVO --
+
+git checkout nuevo     -- volver al branch MASTER --
+
+git branch -d nuevo     -- borrar el BRANCH nuevo --
+
 
 
 
