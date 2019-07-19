@@ -46,7 +46,7 @@ git ls-files        -- Muestra los archivos trackeados para GIT ()--
 
 git ls-files        -- Muestra los archivos trackeados para GIT ()--
 
-git commit --amend
+git commit --  -- Abre el editor para cambiar un mensaje de commit erroneo --
 
 
 Sección 5.-----------------------------------------------------------------------------------------------------------------------------------
