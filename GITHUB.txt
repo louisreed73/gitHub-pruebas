@@ -8,14 +8,34 @@ git add file.txt                    -- Añade archivo al Stage Area --
 
 git add .                               -- Añade todos los archivos al Stage Area --
 
+git add -u                            -- Quita los archivos borrados (-u UPDATE) para no incorporar al Stage Area --
+
+git add -A                            -- Añade todos los archivos al Stage Area, borrados, cambios -ALL   --
+
+git reset HEAD <archivo>    -- Quita el archivo del Stage Area --
+
+git reset HEAD .               -- Quita  todos archivos del Stage Area --
+
+git checkout -- <archivo>        -- Cancela los cambios realizados en archivo, hasta ultima version --
+
+git checkout -- .       -- Cancela los cambios realizados en todos archivos, hasta ultima version --
+
 git commit -m "mensaje para el commit"      -- Añade todos los archivos al GITLOCAL Rep --
 
 git commit -a -m "mensaje para el commit"      -- Añade todos los archivos al GITLOCAL Rep --
 
 git log                         -- Muestra todos los commits realizados --
 
+git help log            -- Muestra ayuda para el command LOG --
+
 git log   --online                      -- Muestra todos los commits realizados  en una linea--
 
+git log   --online --decorate --graph --all        -- Muestra todos los commits realizados  todos repositorios en una linea opcs--
+
+git config --global alias.hist "log --oneline --graph --decorate --all "  -- opcion de guardar alias para comandos y opcs --
+
+
+git config --global -l           -- Muestra lista de CONFIG --
 git show                      -- Muestra el ultimo commit realizado--
 
 git reflog                      -- Muestra los commit realizados--
@@ -25,6 +45,13 @@ q                     -- salir de los logs--
 git ls-files        -- Muestra los archivos trackeados para GIT ()--
 
 git ls-files        -- Muestra los archivos trackeados para GIT ()--
+
+
+Sección 5.-----------------------------------------------------------------------------------------------------------------------------------
+
+git diff ____34 _____23     -- Diferencias entre 2 commits --
+
+git diff ____34 HEAD     -- Diferencias entre 1 commit y el actual HEAD, ultimo --
 
 
 
