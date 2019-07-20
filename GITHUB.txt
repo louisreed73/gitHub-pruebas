@@ -88,6 +88,24 @@ git reset <comittID> --mixed             -- Hacer que el Head apunte al commit I
 git reset <comittID> --hard             -- Hacer que el Head apunte al commit ID duro --
 
 
+Sección 8.--------------------------------------------------------------------------------------------------------------------------------
+
+git clone <URL> <nombre de la Carpeta local donde hacer el clone> --recurse-submodules
+
+git fetch               -- trae los cambios del remoto sin integrarlos -- 
+
+get pull                -- trae los cambios del remoto y los integra -merge- en el HEAD --
+
+git push -u origin master -- integra los cambios del local en el remoto --
+
+git push                 -- integra los cambios del local en el remoto --
+
+git remote set-url origin <nuevaURL>  -- cambiar la URL del remote origin --
+
+Sección 9.--------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 Sección 10.--------------------------------------------------------------------------------------------------------------------------------
 
