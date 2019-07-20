@@ -75,7 +75,17 @@ git branch -d nuevo     -- borrar el BRANCH nuevo --
 git branch -d nuevo     -- borrar el BRANCH nuevos --
 >>>>>>> nuevo
 
+git stash                       -- Crear un stash, vuelve HEAD atras y deja el cambio como WorkInProgress --
 
+git stash list              -- Listado de Stash actuales en HEAD --
+
+git stash pop              -- Borrado de stash list e integración de todos los cambios guardadosen Stash --
+
+git reset <comittID> --soft              -- Hacer que el Head apunte al commit ID blando --
+
+git reset <comittID> --mixed             -- Hacer que el Head apunte al commit ID mezclado --
+
+git reset <comittID> --hard             -- Hacer que el Head apunte al commit ID duro --
 
 
 
