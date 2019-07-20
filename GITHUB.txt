@@ -94,6 +94,8 @@ git clone <URL> <nombre de la Carpeta local donde hacer el clone> --recurse-subm
 
 git fetch               -- trae los cambios del remoto sin integrarlos -- 
 
+git fetch -p               -- trae los cambios del remoto sin integrarlos  con la op. prune -- 
+
 get pull                -- trae los cambios del remoto y los integra -merge- en el HEAD --
 
 git push -u origin master -- integra los cambios del local en el remoto --
@@ -104,6 +106,11 @@ git remote set-url origin <nuevaURL>  -- cambiar la URL del remote origin --
 
 Sección 9.--------------------------------------------------------------------------------------------------------------------------------
 
+git push -u origin <nombreBRANCH>  -- update el remote con un BRANCH local --
+
+git branch -a               -- listado de BRANCH todos --
+
+git push -u origin -d <nombreBRACHremote>  -- borrar BRANCH remote desde local --
 
 
 
