@@ -112,6 +112,12 @@ git branch -a               -- listado de BRANCH todos --
 
 git push -u origin -d <nombreBRACHremote>  -- borrar BRANCH remote desde local --
 
+git push -u origin :<nombreBRACHremote>  -- borrar BRANCH remote desde local, otro modo igual que con los tags --
+
+git pull -all       -- recupera del remote e integra todo, incluido remote BRANCHS --
+
+
+
 
 
 Sección 10.--------------------------------------------------------------------------------------------------------------------------------
