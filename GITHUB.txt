@@ -116,6 +116,8 @@ git push -u origin :<nombreBRACHremote>  -- borrar BRANCH remote desde local, ot
 
 git pull -all       -- recupera del remote e integra todo, incluido remote BRANCHS --
 
+git pull --rebase  -- merge locally and remote, pero con los cambios locales por delante --
+
 
 
 
