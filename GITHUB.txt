@@ -155,6 +155,8 @@ HEAD@{3}                                            -- Compara el Branch con el 
 
 HEAD^                                                   -- Compara el Branch con el ultimo 1 menos --
 
+git remote add upstream "nuevaURL"       -- Inserta un nuevo Remote para hacer push fetch pull --
+
 
 Sección 12.-----------------------------------------------------------------------------------------------------------------------------------
 
