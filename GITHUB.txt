@@ -160,6 +160,9 @@ git remote add upstream "nuevaURL"       -- Inserta un nuevo Remote para hacer p
 git pull upstream master                -- inserta, o merge los cambios de upstream en master --
 
 
-Sección 12.-----------------------------------------------------------------------------------------------------------------------------------
+Sección 13.-----------------------------------------------------------------------------------------------------------------------------------
+
+git commit -a -m "mensaje para relacionar un commit con issue, commit o lo que sea mediante: #1 -id-" --
+git push                -- "relacionado ahora con el anterior commit #1 -id-" --
 
 
