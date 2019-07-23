@@ -7,13 +7,38 @@ body {
     color:red;
 }
 
-div {
-    margin:20px 0;
-    // color:red;
-    text-align: center;
-    background:gainsboro;
-    padding:30px;
-    cursor:pointer;
+.parent {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+[class|='circulo'] {
+    margin:30px 30px;
+    flex-grow:0;
+    flex-shrink: 1;
+    flex-basis:20px;
+    height:20px;
+    background:red;
+    border-radius:50%;
+    margin:10px 10px;
+    transition:transform .5s ease-in-out;
+    // box-shadow: inset 1px 2px 6px black;
+}
+h3 {
+    flex-basis:100vw;
+    text-align:center;
+}
+
+.este[class|='circulo'] {
+transform:scale(1.5);
+};
+
+@for $i from 1 to 4 {
+    .circulo-#{$i} {
+        background:nth($lista,$i)
+    }
 }
 
 

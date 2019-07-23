@@ -157,6 +157,8 @@ HEAD^                                                   -- Compara el Branch con
 
 git remote add upstream "nuevaURL"       -- Inserta un nuevo Remote para hacer push fetch pull --
 
+git pull upstream master                -- inserta, merge los cambios de upstream en master --
+
 
 Sección 12.-----------------------------------------------------------------------------------------------------------------------------------
 
