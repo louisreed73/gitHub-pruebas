@@ -98,6 +98,40 @@ prueba();
 
 
 
+let __arr=[1,2,3,[
+    {nombre:"luis"},
+    {edad:46}
+]];
+
+let __arr1=JSON.parse(JSON.stringify(__arr));
+
+__arr[3][0].nombre="Tu puta madre!!!!"
+
+__arr1.splice(0,0,"Luis");
+
+var luis= {
+    nombre:"Luis",
+    edad:46,
+    direccion:{
+        calle:"Manojo de Rosas, 81",
+        cp:28041
+    }
+}
+
+// let luis1=luis;
+//  luis1=Object.assign({},luis);
+let luis1={...luis};
+ luis1=JSON.parse(JSON.stringify(luis));
+
+luis.direccion.calle="Tu puta madre"
+
+luis1.edad=89;
+
+log(luis.edad,luis)
+log(luis1.edad,luis1)
+
+log(__arr,__arr1);
+
 
 
 

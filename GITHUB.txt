@@ -1,6 +1,6 @@
 Sección 4.-----------------------------------------------------------------------------------------------------------------------------------
 
-git .init                                  -- Instalacion local del GIT --
+git init                                  -- Instalacion local del GIT --
 
 git status                              -- Estado del GIT en un momento dado --
 
@@ -166,3 +166,8 @@ git commit -a -m "mensaje para relacionar un commit con issue, commit o lo que s
 git push                -- "relacionado ahora con el anterior commit #1 -id-" --
 
 
+Sección 15.-----------------------------------------------------------------------------------------------------------------------------------
+
+git fetch -all   -- recupera todas las referencias de todos los remotos asociados --
+
+git checkout -b shared origin/shared  -- aunque recupera el branch hay que crearlo en local --
